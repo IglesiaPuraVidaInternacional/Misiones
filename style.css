@@ -91,7 +91,7 @@ nav .fa{
 
 @media(max-width: 700px) {
     .text-box h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .nav-links ul li{
     display: block;
@@ -168,5 +168,6 @@ h3{
     }
 
 }
+
 
 
