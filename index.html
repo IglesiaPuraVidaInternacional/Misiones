@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0" >
+<title>Website Misiones Pura Vida</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+<section class="header">
+<nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="">¿QUIÉNES SOMOS?</a></li>
+        <li><a href="">PROYECTOS ACTUALES</a></li>
+        <li><a href="">TESTIMONIOS</a></li>
+        <li><a href="">GALERÍA</a></li>
+        <li><a href="">EVENTOS</a></li>
+        <li><a href="">CÓMO PARTICIPAR</a></li>
+        <li><a href="">NOTICIAS</a></li>
+        <li><a href="">CONTACTO</a></li>
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>Misiones Pura Vida Internacional</h1>
+    <p>Bienvenido</p>
+    <a href="" class="hero-btn">Visitanos para conocer más</a>
+</div>
+
+</section>
+<!--Course-->
+<section class="course">
+    <h1>"Espera grandes cosas de Dios. Intenta grandes cosas para Dios"</h1>
+    <p>William Carey</p>
+
+    <div class="row">
+        <div class="course-col">
+<h3>¿QUIÉNES SOMOS?</h3>
+       <p>Somos el ministerio de Misiones de la Iglesia Cristiana Pura Vida Internacional, dedicados a llevar el mensaje de salvación a las Etniasque no han sido alcanzados</p>
+</div>
+<div class="course-col">
+<h3>LO QUE HACEMOS</h3>
+       <p>Nos unimos como Iglesia con el propósito de cumplir el mandato que el Señor nos encomendó en Mateo 28:19-20, , formando discípulos y extendiendo el reino de Dios con amor y servicio.</p>
+</div>
+
+<div class="course-col">
+<h3>MINISTERIOS</h3>
+       <p>"Nos movemos con pasión a través de diferentes ministerios: evangelismo en calles, hospitales, jóvenes y etnias, además del Ministerio de Buenas Nuevas y programas de entrenamiento, todo con el anhelo de cumplir el mandato de nuestro Señor y llevar Su luz a cada rincón."  </p>
+</div>
+    </div>
+</section>
+<!--Campus -->
+<section class="campus">
+
+</section>
+
+<!--JavaScript for Toggle Menu -->
+<script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+    </body>
+</html>
